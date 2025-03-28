@@ -45,7 +45,12 @@ function Chart() {
             <XAxis dataKey="time" stroke='#ffffff'/>
             <YAxis stroke='#ffffff'/>
             <Tooltip/>
-            <Line type="monotone" dataKey="rate" stroke='#FF9999' strokeWidth={2}/>
+            <Line 
+            type="monotone" 
+            dataKey="rate" 
+            stroke='#FF9999' 
+            strokeWidth={2}
+            animationDuration={2500}/>
           </LineChart>
         </ResponsiveContainer>
       </div>
