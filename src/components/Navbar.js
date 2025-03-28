@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Login from './../pages/Login';
 
 function Navbar() {
   return (
@@ -15,7 +14,7 @@ function Navbar() {
                 </li>
                 <li>
                     <Link to='/news' className='text-white hover:text-gray-400'>News</Link>
-                </li>
+                </li> 
                 <li>
                     <Link to='/favorites' className='text-white hover:text-gray-400'>Favorites</Link>
                 </li>
