@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Login from './../pages/Login';
+import Chart from './../pages/Chart';
 
 function Navbar() {
   return (
@@ -21,6 +22,9 @@ function Navbar() {
                 </li>
                 <li>
                     <Link to='/login' className='text-white hover:text-gray-400'>Login</Link>
+                </li>
+                <li>
+                    <Link to='/chart' className='text-white hover:text-gray-400'>Chart</Link>
                 </li>
             </ul>
         </div>
